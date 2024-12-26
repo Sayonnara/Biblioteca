@@ -58,24 +58,31 @@ Uma biblioteca para criar um classificador de níveis de heróis em Node.js:
 Código da biblioteca :
 
 javascript
-Copiar código
-// heroiClassificador.js
+
 function classificarXP(xp) {
+
     if (xp < 1000) return 'Ferro';
+    
     if (xp <= 2000) return 'Bronze';
+    
     if (xp <= 5000) return 'Prata';
+    
     if (xp <= 7000) return 'Ouro';
+    
     if (xp <= 8000) return 'Platina';
+    
     if (xp <= 9000) return 'Ascendente';
+    
     if (xp <= 10000) return 'Imortal';
+    
     return 'Radiante';
 }
 
 module.exports = { classificarXP };
+
 Uso no projeto:
 
-javascript
-Copiar código
+
 const { classificarXP } = require('./heroiClassificador');
 
 const xp = 7500;
