@@ -2,22 +2,24 @@
  Uma biblioteca de linguagem de programação é uma coleção de funções, classes, métodos e outros recursos pré-desenvolvidos que ajudam os programadores a realizar tarefas comuns ou complexas sem precisar escrever tudo do zero. Elas encapsulam funcionalidades reutilizáveis que podem ser integradas ao seu projeto para facilitar o desenvolvimento.
 _
 
-Como funciona:
+## Como funciona :
 Encapsulamento de funcionalidades: Bibliotecas fornecem implementações prontas de algoritmos, interfaces ou componentes que o programador pode usar diretamente.
 
 Exemplo: Em Node.js, a biblioteca fs permite trabalhar com o sistema de arquivos.
 Uso: Você importa a biblioteca e chama as funções necessárias.
 javascript
-Copiar código
+
 const fs = require('fs');
 fs.writeFileSync('file.txt', 'Hello, World!');
 API pública: As bibliotecas expõem uma API (Application Programming Interface) clara e bem documentada para os desenvolvedores usarem seus recursos.
 
-Modularidade: Bibliotecas são geralmente modulares, ou seja, você só precisa carregar as partes que realmente vai usar, economizando recursos.
+## Modularidade:
+Bibliotecas são geralmente modulares, ou seja, você só precisa carregar as partes que realmente vai usar, economizando recursos.
 
-Interoperabilidade: Muitas bibliotecas são criadas para funcionar com outras ferramentas ou linguagens, promovendo a integração entre diferentes sistemas.
+## Interoperabilidade : 
+Muitas bibliotecas são criadas para funcionar com outras ferramentas ou linguagens, promovendo a integração entre diferentes sistemas.
 
-Como criar uma biblioteca:
+## Como criar uma biblioteca:
 Criar uma biblioteca geralmente envolve:
 
 Definir o objetivo: Identificar um problema específico que a biblioteca resolverá.
@@ -25,9 +27,9 @@ Definir o objetivo: Identificar um problema específico que a biblioteca resolve
 Exemplo: Uma biblioteca para converter moedas, processar imagens, ou manipular strings.
 Desenvolver o código: Escrever funções, classes ou métodos que encapsulam funcionalidades.
 
-Exemplo em Node.js:
+## Exemplo em Node.js :
 javascript
-Copiar código
+
 // moedaConverter.js
 function converterParaDolar(valor, taxa) {
     return valor * taxa;
@@ -45,7 +47,7 @@ npm init
 npm publish
 Atualizar: Manter e melhorar a biblioteca com base no feedback dos usuários e necessidades do mercado.
 
-O que uma biblioteca faz:
+## O que uma biblioteca faz :
 Automatiza tarefas repetitivas: Como validação de dados, cálculos complexos ou formatação.
 Abstrai complexidade: Oculta detalhes técnicos, fornecendo uma interface simples.
 Economiza tempo: Evita que desenvolvedores reinventem a roda.
@@ -53,7 +55,7 @@ Promove padronização: Garante que diferentes projetos sigam práticas consiste
 Exemplo prático:
 Uma biblioteca para criar um classificador de níveis de heróis em Node.js:
 
-Código da biblioteca:
+Código da biblioteca :
 
 javascript
 Copiar código
